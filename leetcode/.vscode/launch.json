@@ -1,0 +1,707 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TreasureIsland",
+            "request": "launch",
+            "mainClass": "app.graph.TreasureIsland",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MinCostToConnectRopes",
+            "request": "launch",
+            "mainClass": "app.heap.MinCostToConnectRopes",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - OptimalUtilizationII",
+            "request": "launch",
+            "mainClass": "app.array.OptimalUtilizationII",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - OptimalUtilization",
+            "request": "launch",
+            "mainClass": "app.array.OptimalUtilization",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BSTShortestDisOfTwoNodes",
+            "request": "launch",
+            "mainClass": "app.binarytree.BSTShortestDisOfTwoNodes",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PartitionLabel",
+            "request": "launch",
+            "mainClass": "app.greedy.PartitionLabel",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ReorderDataInLogFile",
+            "request": "launch",
+            "mainClass": "app.sort.ReorderDataInLogFile",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SearchSuggestionsSystemII",
+            "request": "launch",
+            "mainClass": "app.string.SearchSuggestionsSystemII",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-App<leetcode>",
+            "request": "launch",
+            "mainClass": "app.App",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-QuickSort<leetcode>",
+            "request": "launch",
+            "mainClass": "app.QuickSort",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ArrayAndDelimiter<leetcode>",
+            "request": "launch",
+            "mainClass": "app.array.ArrayAndDelimiter",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-InsertInterval<leetcode>",
+            "request": "launch",
+            "mainClass": "app.array.InsertInterval",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MergeInterval<leetcode>",
+            "request": "launch",
+            "mainClass": "app.array.MergeInterval",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SpiralMatrix<leetcode>",
+            "request": "launch",
+            "mainClass": "app.array.SpiralMatrix",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-NQueensGGBT<leetcode>",
+            "request": "launch",
+            "mainClass": "app.backtracking.NQueensGGBT",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PhoneNumberLetterCombo<leetcode>",
+            "request": "launch",
+            "mainClass": "app.backtracking.PhoneNumberLetterCombo",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MaxDepthBT<leetcode>",
+            "request": "launch",
+            "mainClass": "app.binarytree.MaxDepthBT",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MaxDepthBTII<leetcode>",
+            "request": "launch",
+            "mainClass": "app.binarytree.MaxDepthBTII",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PathSumI<leetcode>",
+            "request": "launch",
+            "mainClass": "app.binarytree.PathSumI",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PathSumR<leetcode>",
+            "request": "launch",
+            "mainClass": "app.binarytree.PathSumR",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SerDesBT<leetcode>",
+            "request": "launch",
+            "mainClass": "app.binarytree.SerDesBT",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SymmetricTreeI<leetcode>",
+            "request": "launch",
+            "mainClass": "app.binarytree.SymmetricTreeI",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SymmetricTreeR<leetcode>",
+            "request": "launch",
+            "mainClass": "app.binarytree.SymmetricTreeR",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ValidateBSTI<leetcode>",
+            "request": "launch",
+            "mainClass": "app.binarytree.ValidateBSTI",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ValidateBSTR<leetcode>",
+            "request": "launch",
+            "mainClass": "app.binarytree.ValidateBSTR",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BinaryWatchI<leetcode>",
+            "request": "launch",
+            "mainClass": "app.bitmask.BinaryWatchI",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BinaryWatchII<leetcode>",
+            "request": "launch",
+            "mainClass": "app.bitmask.BinaryWatchII",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Numberof1Bits<leetcode>",
+            "request": "launch",
+            "mainClass": "app.bitmask.Numberof1Bits",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LRUCache<leetcode>",
+            "request": "launch",
+            "mainClass": "app.design.LRUCache",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ATest<leetcode>",
+            "request": "launch",
+            "mainClass": "app.dp.ATest",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Fibonacci<leetcode>",
+            "request": "launch",
+            "mainClass": "app.dp.Fibonacci",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FibonacciDP<leetcode>",
+            "request": "launch",
+            "mainClass": "app.dp.FibonacciDP",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FibonacciDPII<leetcode>",
+            "request": "launch",
+            "mainClass": "app.dp.FibonacciDPII",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-IntegerBreak<leetcode>",
+            "request": "launch",
+            "mainClass": "app.dp.IntegerBreak",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-KnapsackDP<leetcode>",
+            "request": "launch",
+            "mainClass": "app.dp.KnapsackDP",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-KnapsackRecursive<leetcode>",
+            "request": "launch",
+            "mainClass": "app.dp.KnapsackRecursive",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LongestCommonSubseqBF<leetcode>",
+            "request": "launch",
+            "mainClass": "app.dp.LongestCommonSubseqBF",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LongestCommonSubseqDP<leetcode>",
+            "request": "launch",
+            "mainClass": "app.dp.LongestCommonSubseqDP",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LongestIncreasingSubseq<leetcode>",
+            "request": "launch",
+            "mainClass": "app.dp.LongestIncreasingSubseq",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LongestPalindromicSubstring<leetcode>",
+            "request": "launch",
+            "mainClass": "app.dp.LongestPalindromicSubstring",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MaxProductSubarray<leetcode>",
+            "request": "launch",
+            "mainClass": "app.dp.MaxProductSubarray",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MinCostClimbingStairs<leetcode>",
+            "request": "launch",
+            "mainClass": "app.dp.MinCostClimbingStairs",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MinCostClimbingStairsII<leetcode>",
+            "request": "launch",
+            "mainClass": "app.dp.MinCostClimbingStairsII",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MinPathSum<leetcode>",
+            "request": "launch",
+            "mainClass": "app.dp.MinPathSum",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PascalTriangle<leetcode>",
+            "request": "launch",
+            "mainClass": "app.dp.PascalTriangle",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PascalTriangleII<leetcode>",
+            "request": "launch",
+            "mainClass": "app.dp.PascalTriangleII",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ArticulationPoint<leetcode>",
+            "request": "launch",
+            "mainClass": "app.graph.ArticulationPoint",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CourseScheduleDFS<leetcode>",
+            "request": "launch",
+            "mainClass": "app.graph.CourseScheduleDFS",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CourseScheduleTopoSort<leetcode>",
+            "request": "launch",
+            "mainClass": "app.graph.CourseScheduleTopoSort",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DFSDetectCycleDirectedGraph<leetcode>",
+            "request": "launch",
+            "mainClass": "app.graph.DFSDetectCycleDirectedGraph",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GraphBFSAdj<leetcode>",
+            "request": "launch",
+            "mainClass": "app.graph.GraphBFSAdj",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GraphTopoSort<leetcode>",
+            "request": "launch",
+            "mainClass": "app.graph.GraphTopoSort",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GraphValidTreeUF<leetcode>",
+            "request": "launch",
+            "mainClass": "app.graph.GraphValidTreeUF",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-NaryTreeLevelOrderTraversal<leetcode>",
+            "request": "launch",
+            "mainClass": "app.graph.NaryTreeLevelOrderTraversal",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-NumberOfIslandBFS<leetcode>",
+            "request": "launch",
+            "mainClass": "app.graph.NumberOfIslandBFS",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-NumberOfIslandDFS<leetcode>",
+            "request": "launch",
+            "mainClass": "app.graph.NumberOfIslandDFS",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-NumberOfIslandUF<leetcode>",
+            "request": "launch",
+            "mainClass": "app.graph.NumberOfIslandUF",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RottingOranges<leetcode>",
+            "request": "launch",
+            "mainClass": "app.graph.RottingOranges",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RottingOrangesII<leetcode>",
+            "request": "launch",
+            "mainClass": "app.graph.RottingOrangesII",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-UFDetectCycleUnDirectedGraph<leetcode>",
+            "request": "launch",
+            "mainClass": "app.graph.UFDetectCycleUnDirectedGraph",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WallsAndGatesBFS<leetcode>",
+            "request": "launch",
+            "mainClass": "app.graph.WallsAndGatesBFS",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WallsAndGatesDFS<leetcode>",
+            "request": "launch",
+            "mainClass": "app.graph.WallsAndGatesDFS",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ZombieInMatrix<leetcode>",
+            "request": "launch",
+            "mainClass": "app.graph.ZombieInMatrix",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GasStation<leetcode>",
+            "request": "launch",
+            "mainClass": "app.greedy.GasStation",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GasStationII<leetcode>",
+            "request": "launch",
+            "mainClass": "app.greedy.GasStationII",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MeetingRoomsII<leetcode>",
+            "request": "launch",
+            "mainClass": "app.greedy.MeetingRoomsII",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RemoveKDigitsStack<leetcode>",
+            "request": "launch",
+            "mainClass": "app.greedy.RemoveKDigitsStack",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RemoveKDigitsStackII<leetcode>",
+            "request": "launch",
+            "mainClass": "app.greedy.RemoveKDigitsStackII",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ReorganizeString<leetcode>",
+            "request": "launch",
+            "mainClass": "app.greedy.ReorganizeString",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TaskScheduleHeap<leetcode>",
+            "request": "launch",
+            "mainClass": "app.greedy.TaskScheduleHeap",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SingleNumber<leetcode>",
+            "request": "launch",
+            "mainClass": "app.hashtable.SingleNumber",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SingleNumberII<leetcode>",
+            "request": "launch",
+            "mainClass": "app.hashtable.SingleNumberII",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ThreeSum<leetcode>",
+            "request": "launch",
+            "mainClass": "app.hashtable.ThreeSum",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ThreeSumMulti<leetcode>",
+            "request": "launch",
+            "mainClass": "app.hashtable.ThreeSumMulti",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ThreeSumMultiII<leetcode>",
+            "request": "launch",
+            "mainClass": "app.hashtable.ThreeSumMultiII",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TwoSum<leetcode>",
+            "request": "launch",
+            "mainClass": "app.hashtable.TwoSum",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TopKElementInAStream<leetcode>",
+            "request": "launch",
+            "mainClass": "app.heap.TopKElementInAStream",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TopKFrequentElements<leetcode>",
+            "request": "launch",
+            "mainClass": "app.heap.TopKFrequentElements",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TopKFrequentKeywords<leetcode>",
+            "request": "launch",
+            "mainClass": "app.heap.TopKFrequentKeywords",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TopKFrequentWords<leetcode>",
+            "request": "launch",
+            "mainClass": "app.heap.TopKFrequentWords",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TopKFrequentWordsII<leetcode>",
+            "request": "launch",
+            "mainClass": "app.heap.TopKFrequentWordsII",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CopyListWithRandomPointer<leetcode>",
+            "request": "launch",
+            "mainClass": "app.linkedlist.CopyListWithRandomPointer",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MergeKSortedLists<leetcode>",
+            "request": "launch",
+            "mainClass": "app.linkedlist.MergeKSortedLists",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MergeTwoSortedListsI<leetcode>",
+            "request": "launch",
+            "mainClass": "app.linkedlist.MergeTwoSortedListsI",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MergeTwoSortedListsR<leetcode>",
+            "request": "launch",
+            "mainClass": "app.linkedlist.MergeTwoSortedListsR",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RemoveNthFromEnd<leetcode>",
+            "request": "launch",
+            "mainClass": "app.linkedlist.RemoveNthFromEnd",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ReverseLinkedListI<leetcode>",
+            "request": "launch",
+            "mainClass": "app.linkedlist.ReverseLinkedListI",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ReverseLinkedListR<leetcode>",
+            "request": "launch",
+            "mainClass": "app.linkedlist.ReverseLinkedListR",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SwapNodesInPairsI<leetcode>",
+            "request": "launch",
+            "mainClass": "app.linkedlist.SwapNodesInPairsI",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SwapNodesInPairsR<leetcode>",
+            "request": "launch",
+            "mainClass": "app.linkedlist.SwapNodesInPairsR",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CountPrimes<leetcode>",
+            "request": "launch",
+            "mainClass": "app.math.CountPrimes",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LongestSubstringKDistChars<leetcode>",
+            "request": "launch",
+            "mainClass": "app.string.LongestSubstringKDistChars",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LongestSubstringKDistCharsII<leetcode>",
+            "request": "launch",
+            "mainClass": "app.string.LongestSubstringKDistCharsII",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MostCommonWord<leetcode>",
+            "request": "launch",
+            "mainClass": "app.string.MostCommonWord",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MostCommonWordII<leetcode>",
+            "request": "launch",
+            "mainClass": "app.string.MostCommonWordII",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SearchSuggestionsSystem<leetcode>",
+            "request": "launch",
+            "mainClass": "app.string.SearchSuggestionsSystem",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Trie<leetcode>",
+            "request": "launch",
+            "mainClass": "app.trie.Trie",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WordDictionary<leetcode>",
+            "request": "launch",
+            "mainClass": "app.trie.WordDictionary",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WordSearchII<leetcode>",
+            "request": "launch",
+            "mainClass": "app.trie.WordSearchII",
+            "projectName": "leetcode"
+        }
+    ]
+}
