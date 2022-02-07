@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "app.array.Test",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayAndDelimiterII",
+            "request": "launch",
+            "mainClass": "app.array.ArrayAndDelimiterII",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - TreasureIsland",
             "request": "launch",
             "mainClass": "app.graph.TreasureIsland",

@@ -42,6 +42,9 @@ public class ArrayAndDelimiter {
                 b = new StringBuilder();
             }
         }
+        if (b.length() > 0 ) {
+            result.add(b.toString());
+        }
 
         String[] strResult = new String[result.size()];
         result.toArray(strResult);
