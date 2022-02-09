@@ -3,41 +3,51 @@ import java.util.*;
 
 public class Test {
 
-    public static String[] arrayAfterDelimiter(char[] arr, char[] delimeter) {
-        if (arr == null || arr.length == 0) {
-            return null;
-        }
+   
 
-        Set<Character> delSet = new HashSet<>();
-        for (char c: delimeter){
-            delSet.add(c);
-        }
-                                
-        ArrayList<String> result = new ArrayList<>();
-        StringBuilder b = new StringBuilder();
-        for (char c: arr){
-            if (!delSet.contains(c)){
-                b.append(c);
-            } else {
-                result.add(b.toString());
-                b = new StringBuilder();
+    public static int[][] closesPairs(int[][] firstList, int[][] secondList, int target) {
+
+        
+        // use map to mem process result
+        int maxVal = -1;
+        Map<Integer, List<int[]>> map = new HashMap<>();
+
+        for(int[] firstRow : firstList){
+
+            for(int[] secondRow: secondList){
+                int tempSum = firstRow[1] + secondRow[1];
+                if (tempSum > target) {
+                    continue;
+                }
+                if(tempSum >= maxVal) {
+                    map.putIfAbsent(tempSum, new ArrayList<int[]>());
+                    map.get(tempSum).add(new int[]{firstRow[0], secondRow[0]});
+                    maxVal = tempSum;
+                }
             }
         }
-        if (b.length() > 0 ) {
-            result.add(b.toString());
-        }
+        
+        return map.get(maxVal).toArray(new int[map.get(maxVal).size()][2]);
 
-        String[] strResult = new String[result.size()];
-        return result.toArray(strResult);
     }
 
-    public static void main(String[] args) {
-        char[] arr = {'a', 'b', 'c', '-', 'd', 'e', '/','a', ':', 'b', 'c','*', 'd', 'e'};
-        char[] delimiters = {'/', '*', ':', '-'};
+    
 
-        String[] result = Test.arrayAfterDelimiter(arr, delimiters);
-        for (String s: result) {
-            System.out.print(s + "  ");
+    public static void main(String[] args) {
+        int[][] list1 = {
+            {1,3}, {2,5}, {3,7}, {4,10}
+        };
+        int[][] list2 = {
+            {1,2}, {2,3}, {3,4}, {4,5}
+        };
+        
+
+        int[][] result = Test.closesPairs(list1, list2, 10);
+        for (int[] row: result) {
+            System.out.println("  ");
+            for (int i: row){
+                System.out.print(i + " ");
+            }
         }
     }
     

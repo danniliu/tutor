@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch OptimalUtilizationIII",
+            "request": "launch",
+            "mainClass": "app.array.OptimalUtilizationIII",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
             "name": "Launch Test",
             "request": "launch",
             "mainClass": "app.array.Test",
