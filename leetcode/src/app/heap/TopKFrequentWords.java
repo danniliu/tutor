@@ -28,7 +28,11 @@ package app.heap;
     This solution use hashtable and heap.
     Time: O(NLogk)
     Space: O(N)
- */
+* ***************************** Notes:
+    Priority Queue = A FIFO data structure that serves elements with the highest priorities first
+    before elements with lower priority.
+
+    */
 import java.util.*;
 
 public class TopKFrequentWords {
@@ -42,7 +46,8 @@ public class TopKFrequentWords {
             count.put(word, count.getOrDefault(word, 0) + 1);
         }
         
-        //populate a min heap using the count map
+        //populate a min heap using the count map, 
+        //so each adding that exceeds K the lower count word is removed
         PriorityQueue<String> pq = new PriorityQueue<>(
             (a, b) -> count.get(a).equals(count.get(b)) ? b.compareTo(a) : count.get(a) - count.get(b) ); //:)
         

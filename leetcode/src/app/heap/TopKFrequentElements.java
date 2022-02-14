@@ -40,7 +40,7 @@ public class TopKFrequentElements {
           count.put(n, count.getOrDefault(n, 0) + 1);
         }
 
-        // init heap 'the less frequent element first'
+        // init a min heap 'the less frequent element first'
         Queue<Integer> heap = new PriorityQueue<>(
             (n1, n2) -> count.get(n1) - count.get(n2));
 

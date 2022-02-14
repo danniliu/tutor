@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch LongestSubstringNoRepeatingChars",
+            "request": "launch",
+            "mainClass": "app.string.LongestSubstringNoRepeatingChars",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExpressionEval",
+            "request": "launch",
+            "mainClass": "app.stack.ExpressionEval",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Launch QueueImpl",
+            "request": "launch",
+            "mainClass": "app.queue.QueueImpl",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Launch StackImpl",
+            "request": "launch",
+            "mainClass": "app.stack.StackImpl",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
             "name": "Launch OptimalUtilizationIII",
             "request": "launch",
             "mainClass": "app.array.OptimalUtilizationIII",

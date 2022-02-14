@@ -34,7 +34,6 @@ package app.hashtable;
  * **************************Analysis:
  * From leetcode article: https://leetcode.com/articles/3sum-with-multiplicity/
  * 1) three pointers approach:
- * 2) As the answer can be very large, return it modulo 10^9 + 7.   ????
  * 3) Time Complexity: O(N^2), where N is the length of A.
       Space Complexity: O(1).
  */
@@ -43,7 +42,7 @@ import java.util.*;
 public class ThreeSumMultiII {
 
     public static int threeSumMulti(int[] A, int target) {
-        int MOD = 1_000_000_007;
+        int MOD = 1_000_000_007;  // As the answer can be very large, return it modulo 10^9 + 7.
         long ans = 0;
         Arrays.sort(A);
 

@@ -63,13 +63,13 @@ public class RottingOrangesII {
         while(!q.isEmpty()) {
             int size = q.size();
             for(int i = 0; i < size; i++) {
-                int[] cur = q.poll();
+                int[] cur = q.remove();
                 for(int[] d : dir) {
-                    int x = cur[0] + d[0];
-                    int y = cur[1] + d[1];
+                    int x = cur[0] + d[0]; //row
+                    int y = cur[1] + d[1]; //col
                     if(x >= 0 && x < grid.length && y >= 0 && y < grid[0].length && grid[x][y] == 1) {
                         grid[x][y] = 2;
-                        q.offer(new int[]{x, y});
+                        q.add(new int[]{x, y});
                         fresh--;
                     }
                 }

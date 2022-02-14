@@ -45,36 +45,49 @@ package app.string;
 import java.util.*;
 
 public class MostCommonWord {
-  public static String mostCommonWord(String paragraph, String[] banned) {
-    paragraph += ".";
-    
-    Set<String> banSet = new HashSet<>();
-    for(String w: banned) banSet.add(w);   //time complexity: O(B), B is the size of the array banned
-    
-    String ans = "";
-    int mostC = 0;
-    
-    Map<String, Integer> count = new HashMap<>();
-    StringBuilder word = new StringBuilder();
-    char[] chars = paragraph.toCharArray();
-    for (char c: chars){  //time complexity: O(P), P is the length of the paragraph
-        if (Character.isLetter(c)){
-            word.append(Character.toLowerCase(c));
-        } else if(word.length() > 0){
-            String strWord = word.toString();
-            if (banSet.size()==0|| !banSet.contains(strWord)){ //time complexity of hashset contains is O(1) 
-                count.put(strWord, count.getOrDefault(strWord, 0)+1);  //time complexity of hashmap put is O(1)  
-                if(count.get(strWord) > mostC) { //time complexity of hashmap get is O(1) 
-                    ans = strWord;
-                    mostC = count.get(strWord);
-                }
+
+    public static String mostCommonWord(String paragraph, String[] banned) {
+
+        Set<String> bannedWords = new HashSet<>();
+        for (String word : banned)
+            bannedWords.add(word);
+
+        String ans = "";
+        int maxCount = 0;
+        Map<String, Integer> wordCount = new HashMap<>();
+        StringBuilder wordBuffer = new StringBuilder();
+        char[] chars = paragraph.toCharArray();
+
+        for (int p = 0; p < chars.length; ++p) {
+            char currChar = chars[p];
+
+            // 1). consume the characters in a word
+            if (Character.isLetter(currChar)) {
+                wordBuffer.append(Character.toLowerCase(currChar));
+                if (p != chars.length - 1)
+                    // skip the rest of the processing if not the last char, need to continue process if last word with no punc at the end.
+                    continue;
             }
-            word = new StringBuilder();
+
+            // 2). at the end of one word or at the end of paragraph
+            if (wordBuffer.length() > 0) {
+                String word = wordBuffer.toString();
+                // identify the maximum count while updating the wordCount table.
+                if (!bannedWords.contains(word)) {
+                    int newCount = wordCount.getOrDefault(word, 0) + 1;
+                    wordCount.put(word, newCount);
+                    if (newCount > maxCount) {
+                        ans = word;
+                        maxCount = newCount;
+                    }
+                }
+                // reset the buffer for the next word
+                wordBuffer = new StringBuilder();
+            }
         }
+        return ans;
     }
-    
-    return ans;
-}
+
     public static void main(String[] args) throws Exception {
         String paragraph = "Bob hit a ball, the hit BALL flew far after it was hit.";
         String[] banned = {"hit"};

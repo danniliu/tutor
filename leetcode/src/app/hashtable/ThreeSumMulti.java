@@ -35,6 +35,7 @@ package app.hashtable;
  * From leetcode article: https://leetcode.com/articles/3sum-with-multiplicity/
  * 1) Adapt from three sum
  * 2) As the answer can be very large, return it modulo 10^9 + 7.   ????
+ * 3) use binomial coefficient
  */
 
 public class ThreeSumMulti {
