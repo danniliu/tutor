@@ -34,10 +34,12 @@ public class ReverseLinkedListR {
     }
     
     private void reverseListRecursive(ListNode curr){
+        // The two boundary cases:
         if (curr == null) {
             return;
         }
-        
+        //If curr's next element is null, this means it is the last node, 
+        //so make this head since the last node will be the head of reversed list 
         if(curr.next == null) {
             this.head = curr;
             return;

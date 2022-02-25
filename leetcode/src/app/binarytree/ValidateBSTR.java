@@ -50,6 +50,7 @@ public class ValidateBSTR {
         if(root == null) return true;
         
         int val = root.val;
+        System.out.println(val);
         //make sure the value of the node meets BST condition
         if(min != null && val <= min) return false;
         if(max != null && val >= max) return false;
@@ -61,6 +62,8 @@ public class ValidateBSTR {
     }
     
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello Java");
+        ValidateBSTR bst = new ValidateBSTR();
+
+        
     }
 }

@@ -68,7 +68,7 @@ public class CourseScheduleDFS {
     }
     
     public static boolean isCyclic(List<List<Integer>> adj, int v, boolean[] visited, boolean[] recStack){
-        if(recStack[v]) return true;
+        if(recStack[v]) return true;  // this checking needs to be the first!
         if(visited[v]) return false;  //is the node has visited, no need to revisit
         
         visited[v] = true;
@@ -80,7 +80,7 @@ public class CourseScheduleDFS {
                 return true;
             }
         }
-        recStack[v] = false;
+        recStack[v] = false;  // remove the vertex from the recursion stack
         return false;
     } 
     public static void main(String[] args) throws Exception {

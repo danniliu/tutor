@@ -3,6 +3,7 @@ package app.graph;
 /**
  * Leetcode: 207. Course Schedule
  * Reference: https://leetcode.com/problems/course-schedule/
+ * https://www.youtube.com/watch?v=qe_pQCh09yU
  * Additional Info: tag: DFS; difficulty: medium 
  * **************************
     There are a total of n courses you have to take, labeled from 0 to n-1.

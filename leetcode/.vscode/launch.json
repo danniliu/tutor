@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch CourseScheduleTopoSortII",
+            "request": "launch",
+            "mainClass": "app.graph.CourseScheduleTopoSortII",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Launch BasicBST",
+            "request": "launch",
+            "mainClass": "app.binarytree.BasicBST",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
             "name": "Launch LongestSubstringNoRepeatingChars",
             "request": "launch",
             "mainClass": "app.string.LongestSubstringNoRepeatingChars",
