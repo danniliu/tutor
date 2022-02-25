@@ -6,7 +6,7 @@ import java.util.*;
  * So i was giving an interview and was asked to sort three arrays.
 For eg : Array a = {1,6,4} , b = {1,3,5} and c = {2,6}
 Now the question is to sort these array so that the output can be
-a = {1,1,2} b= {3,4,5} and c = {6,6}
+a = {1,1,2} b= {3,4,5} and c = {6,6} 
 
 https://www.baeldung.com/java-concatenate-arrays
 
