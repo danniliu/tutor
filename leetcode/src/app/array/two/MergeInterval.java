@@ -1,4 +1,4 @@
-package app.array;
+package app.array.two;
 
 /**
  * Leetcode: 56. Merge Intervals
@@ -29,7 +29,7 @@ public class MergeInterval {
     private class IntervalComparator implements Comparator<int[]> {
         @Override
         public int compare(int[] a, int[] b){
-            return a[0]<b[0] ? -1 : a[0]==b[0] ? 0 : 1;
+            return a[0] - b[0];
         }
     }
     public int[][] merge(int[][] intervals) {
@@ -37,6 +37,7 @@ public class MergeInterval {
         //Time: O(nlog(n))
         //Space: O(1) or O(n) depends on implementation
         Collections.sort(Arrays.asList(intervals), new IntervalComparator());
+        //Also can use: Arrays.sort(intervals, new IntervalComparator());
         
         //each set of intervals can be merged will appear as a continuous run in the sorted list
         //Time: O(n)

@@ -1,4 +1,4 @@
-package app.array;
+package app.array.two;
 
 /**
  * Leetcode: 57. Insert Interval

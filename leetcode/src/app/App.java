@@ -67,6 +67,7 @@ class App {
       int[][] prerequisites = {{0,1}, {1,0}};
 
       boolean res = test.canFinish(2, prerequisites);
+      System.out.println(res);
     }
 
 }

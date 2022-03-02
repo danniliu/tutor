@@ -24,6 +24,7 @@ public class ThreeSum {
     public static List<List<Integer>> threeSum(int[] nums, int target) {
         Set<List<Integer>> res = new HashSet<>();
         int len = nums.length;
+        //check edge cases
         if (len < 3)
             return new ArrayList<>(res);
         

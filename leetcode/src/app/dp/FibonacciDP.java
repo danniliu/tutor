@@ -3,7 +3,7 @@ package app.dp;
 /**
  * Dynamic Programming
  * https://www.geeksforgeeks.org/program-for-nth-fibonacci-number/
- * Time Complexity: T(n) = T(n-1) + T(n-2) which is exponential.
+ * Time Complexity: O(n)
  * Extra Space: O(n) if we consider the function call stack size, otherwise O(1).
  */
 

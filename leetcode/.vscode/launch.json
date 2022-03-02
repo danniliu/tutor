@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch RomanToInt",
+            "request": "launch",
+            "mainClass": "app.string.RomanToInt",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Launch RomeToInt",
+            "request": "launch",
+            "mainClass": "app.string.RomeToInt",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Launch BillForTests",
+            "request": "launch",
+            "mainClass": "app.ztest.BillForTests",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Launch Temp",
+            "request": "launch",
+            "mainClass": "app.Temp",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
             "name": "Launch Solution",
             "request": "launch",
             "mainClass": "app.Solution",
