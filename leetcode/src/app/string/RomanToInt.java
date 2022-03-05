@@ -33,11 +33,7 @@ Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
  * 
  */ 
 
-import java.io.*;
 import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
 
 public class RomanToInt {
     static Map<Character, Integer> map = new HashMap<>();
@@ -63,7 +59,7 @@ public class RomanToInt {
        
        while (i<n){
            int currVal = map.get(input.charAt(i));
-           int nextVal = (i+1)<n ? map.get(input.charAt(i+1)) : 0;
+           int nextVal = (i+1)<n ? map.get(input.charAt(i+1)) : 0; //smart
            if(nextVal > currVal){
                res = res + nextVal - currVal;
                i=i+2;

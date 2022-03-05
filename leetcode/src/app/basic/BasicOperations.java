@@ -32,7 +32,13 @@ public class BasicOperations {
 
         //String and Characters
         char[] chars = "123".toCharArray();
-        if (Character.isLetter(chars[0])) {} //
+        if (Character.isLetter(chars[0])) {} 
+        if (Character.isLetterOrDigit(chars[0])) {} 
+
+        //StringBuilder:
+        StringBuilder builder = new StringBuilder();
+        String filteredString = builder.toString();
+        String reversedString = builder.reverse().toString();
 
         //HashMap to store value and count
         int[] nums = new int[]{1,2,3};

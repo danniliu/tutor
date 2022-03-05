@@ -1,4 +1,4 @@
-package app.graph;
+package app.graph.unionFind;
 
 /**
  * Leetcode: 261. Graph Valid Tree
@@ -31,7 +31,7 @@ package app.graph;
 
 public class GraphValidTreeUF {
     int[] parent; // the set that a component belongs to
-    int[] rank; //union by rank
+    int[] rank; //union by rank, rank here is the size of the connected component
     
     public GraphValidTreeUF(int n){  //init parent and rank
         parent  = new int[n];

@@ -1,10 +1,14 @@
 /**
+ * As a reminder, the Union-Find data structure, also known as Disjoint Set, is used to track a set of elements partitioned into a number of disjoint (non-overlapping) subsets. The Union-Find data structure is often applied to solve the graph partition problem, where we partition a graph into a set of inter-connected subgraph.
+ * 
  * UnionFind/Disjoint Set data structure implementation. This code was inspired by the union find
  * implementation found in 'Algorithms Fourth Edition' by Robert Sedgewick and Kevin Wayne.
  *
  * @author William Fiset, william.alexandre.fiset@gmail.com
+ * Union Find: https://www.youtube.com/watch?v=0jNmHPfA_yE
+ * UF Path Compression (therefore O(1) amortized TC for find): https://www.youtube.com/watch?v=VHRhJWacxis
  */
-package app.graph;
+package app.graph.unionFind;
 
 public class UnionFind {
 
