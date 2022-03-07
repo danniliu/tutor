@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch NQueensGGBT",
+            "request": "launch",
+            "mainClass": "app.backtracking.hard.NQueensGGBT",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Launch Permutations",
+            "request": "launch",
+            "mainClass": "app.backtracking.medium.Permutations",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
             "name": "Launch CreatBingoCard",
             "request": "launch",
             "mainClass": "app.basic.easy.CreatBingoCard",

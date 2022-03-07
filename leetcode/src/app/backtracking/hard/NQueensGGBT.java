@@ -1,4 +1,4 @@
-package app.backtracking;
+package app.backtracking.hard;
 
 /**
  * Leetcode: 51. N-Queens
@@ -24,6 +24,7 @@ Output: [
 Explanation: There exist two distinct solutions to the 4-queens puzzle as shown above.
  * ************************** Analysis:
  * This is using back tracking.
+ * This is GeekForGeeks version, only return one board, not exact solution for Leetcode 51
  */
 
 /* Java program to solve N Queen Problem using 

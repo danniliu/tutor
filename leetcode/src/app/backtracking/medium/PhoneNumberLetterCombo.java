@@ -1,4 +1,4 @@
-package app.backtracking;
+package app.backtracking.medium;
 
 /**
  * Leetcode: 17. Letter Combinations of a Phone Number
@@ -17,7 +17,7 @@ package app.backtracking;
 
 	Although the above answer is in lexicographical order, your answer could be in any order you want.
  * ************************** Analysis:
- * This is using back tracking.
+ * This is using back tracking, DFS is better understanding.
  */
 
 import java.util.*;
