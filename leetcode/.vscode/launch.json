@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Search2DMatrixIISimple",
+            "request": "launch",
+            "mainClass": "app.divideAndConquer.medium.Search2DMatrixIISimple",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Launch Search2DMatrixII",
+            "request": "launch",
+            "mainClass": "app.divideAndConquer.medium.Search2DMatrixII",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Launch Quick",
+            "request": "launch",
+            "mainClass": "app.sort.basic.Quick",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Launch Merge",
+            "request": "launch",
+            "mainClass": "app.sort.basic.Merge",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
             "name": "Launch NQueensGGBT",
             "request": "launch",
             "mainClass": "app.backtracking.hard.NQueensGGBT",

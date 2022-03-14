@@ -70,7 +70,7 @@ public class TaskScheduleHeap {
                 }
             }
             
-            // sum up the tasks run so far: if no more tasks left in the heap, done; otherwise it is n_1 tasks incuding idle cycles
+            // sum up the tasks run so far: if no more tasks left in the heap, done; otherwise it is n+1 tasks incuding idle cycles
             result += heap.isEmpty()? temp.size() : n + 1;
             
             
@@ -84,7 +84,7 @@ public class TaskScheduleHeap {
     public static void main(String[] args) throws Exception {
         char[] task = {'A', 'A', 'A', 'B', 'B', 'B'};
 
-        int ret = TaskScheduleHeap.leastInterval(task, 50);
+        int ret = TaskScheduleHeap.leastInterval(task, 2);
         System.out.print(ret);
     }
 }

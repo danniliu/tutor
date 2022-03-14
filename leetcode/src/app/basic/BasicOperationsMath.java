@@ -3,6 +3,8 @@ package app.basic;
 import java.util.*;
 
 public class BasicOperationsMath {
+
+    public static void main(String[] args) {
     /** https://www.baeldung.com/java-generating-random-numbers-in-range
      * Math.random gives a random double value that is greater than or equal to 0.0 and less than 1.0.
         Let's use the Math.random method to generate a random number in a given range [min, max):
@@ -12,5 +14,16 @@ public class BasicOperationsMath {
     // the other way
     Random random = new Random();
     int r1= random.nextInt(max - min) + min;
+
+    int a = 10;
+  
+        // Convert integer number to binary  format
+        System.out.println(Integer.toBinaryString(a));
+  
+        // to print number of 1's in the number a
+        System.out.println(Integer.bitCount(a));
+        
+    }
+    
 
 }
