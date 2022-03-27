@@ -9,6 +9,7 @@ Now the question is to sort these array so that the output can be
 a = {1,1,2} b= {3,4,5} and c = {6,6} 
 
 https://www.baeldung.com/java-concatenate-arrays
+3/27 update
 
  * ************************** Analysis:
  */
